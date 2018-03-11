@@ -1,0 +1,191 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: "Apple Garamond";
+	src: url(fontes/AppleGaramond.ttf);
+}
+
+@font-face{
+	font-family: "Apple Garamond Light";
+	src: url(fontes/AppleGaramond-Light.ttf);
+}
+
+body{
+	height: 100%;
+	background: #F5A9A9; /*#A9F5A9*/
+	font-family: "Apple Garamond", Garamond, serif;
+	font-size: 22px;
+}
+
+ul, li{
+	margin: 1px, 0;
+	list-style: none;
+}
+
+#tudo{
+	min-height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#painel{
+	top: 0;
+	height: 40px;
+	width: 100%;
+	background: #E0F8F1;
+	position: fixed;
+	border-bottom: 3px solid #BDBDBD;
+	padding: 5px;
+}
+
+#limite_painel{
+	width: 720px;
+	margin: 0 auto;
+}
+
+#logo{
+	text-align: center;
+	font-size: 35px;
+}
+
+#menu{
+	font-family: Apple Garamond Light;
+	font-size: 22px;
+	font-weight: 605;
+	background: #A9A9F5;
+	padding: 1px 0;
+	margin-top: 5px;
+	left: 0;
+	position: fixed;
+	height: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+#fones{
+	font-size: 30px;
+	position: relative;
+	float: right;
+	left: -25%;
+}
+
+#area_principal{
+	padding: 10px 10px 0 10px;
+	width: 720px;
+	margin: 30px auto;
+	margin-top: 85px;
+}
+
+h2{
+	margin-bottom: 5px;
+}
+
+#postagem{
+	background: #FFF;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+#lista{
+	background: #FFF;
+	padding: 10px 20px;
+	margin: 10px;
+	margin-bottom: 20px;
+	position: absolute;
+	left: 50%;
+}
+
+#contatos{
+	background: #FFF;
+	padding: 10px 20px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+#borda_img_cont{
+	border: 1px solid #BDBDBD; 
+	padding: 2px;
+	border-radius: 50%;
+}
+
+#rodape{
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	padding: 5px 0; 
+	background: #A9F5A9;
+	font-size: 16px;
+	text-align: center;
+}
+
+#rodape2{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	padding: 5px 0; 
+	background: #A9F5A9;
+	font-size: 16px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	padding: 1px 10px;	
+}
+
+a:link{
+	color: #FF4000;
+}
+
+a:visited{
+	color: #FF4000;
+}
+
+a:hover{
+	color: #FFF;
+	background: #FE9A2E;
+}
+
+a.logo_link:hover{
+	background: #E0F8F1;
+}
+
+a:active{
+	color: #0B610B;
+}
+
+.clear{
+	clear: both;
+}
+
+.preco{
+	font-size: 16px;
+	font-weight: 600;
+	color: blue;
+	margin-top: 10px;
+	padding-left: 5px;
+	border-left: 5px solid red;
+	text-align: right;
+}
+
+.roxo{
+	color: #8000FF;
+}
+
+.marrom{
+	color: #8A2908;
+}
+
+.img_post{
+	display: block;
+	float: left;
+	margin: 5px 5px 1px 0;
+	padding: 2px;
+	border: 1px solid #BDBDBD;
+}
+
