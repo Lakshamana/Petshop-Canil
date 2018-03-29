@@ -42,7 +42,6 @@ ul li{
 	margin-right: auto; 
 }
 
-
 #logo{
 	text-align: center;
 	font-size: 35px;
@@ -56,7 +55,6 @@ ul li{
 	text-align: center;
 	padding: 1px 0;
 	left: 0;
-	margin: 5px auto;
 	position: fixed;
 	height: 25px;
 	width: 100%;
@@ -79,12 +77,6 @@ ul li{
 	}
 }
 
-#fones{
-	font-size: 30px;
-	width: 40px;
-	float: left;
-}
-
 h2{ margin-bottom: 5px; }
 
 #postagem{
@@ -92,6 +84,7 @@ h2{ margin-bottom: 5px; }
 	padding: 10px;
 	margin: 10px;
 	margin-bottom: 15px;
+	overflow: auto;
 }
 
 #lista{
@@ -99,7 +92,7 @@ h2{ margin-bottom: 5px; }
 	padding: 10px 20px;
 	margin: 10px;
 	margin-bottom: 20px;
-	position: absolute;
+	position: relative;
 	left: 50%;
 }
 
@@ -110,11 +103,43 @@ h2{ margin-bottom: 5px; }
 	margin-bottom: 20px;
 }
 
-#borda_img_cont{
+#fones{
+	font-size: 30px;
+	float: right;
+	position: relative;
+	right: 25%;
+	/*text-align: center;*/
+}
+
+#borda_img{
 	border: 1px solid #BDBDBD; 
 	padding: 2px;
-	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	left: 5px;
 	border-radius: 50%;
+}
+
+@media(max-width: 300px){
+	.borda_img{
+		padding-left: auto;
+		padding-right: auto;
+		float: none;
+		display: block;
+	}	
+
+	#fones{
+		padding-left: auto;
+		padding-right: auto;
+		float: none;
+		position: static;
+	}
+
+	.contatos{
+		height: 100%;
+		padding: 20px 20px;
+	}
 }
 
 .rodape{
@@ -149,7 +174,7 @@ h2{ margin-bottom: 5px; }
 	}
 }
 
-@media(min-width: 600px){
+@media(min-width: 300px){
 	.rodape-lo{
 		position: fixed;
 	}
@@ -210,4 +235,3 @@ a:active{
 	padding: 2px;
 	border: 1px solid #BDBDBD;
 }
-
