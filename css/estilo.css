@@ -121,7 +121,7 @@ h2{ margin-bottom: 5px; }
 	border-radius: 50%;
 }
 
-@media(max-width: 300px){
+@media(max-width: 480px){
 	.borda_img{
 		padding-left: auto;
 		padding-right: auto;
